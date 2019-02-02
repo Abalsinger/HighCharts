@@ -1,2 +1,2 @@
 # HighCharts
-Practice Examples of HighCharts JS Charting Library - Non Commerical Version
+Practice Examples of HighCharts JS Charting Library - Non Commercial Version
