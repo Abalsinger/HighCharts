@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello High Charts</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.highcharts.com/highcharts.src.js"></script>
+        <script src="https://code.highcharts.com/modules/no-data-to-display.js"></script>
+    </head>
+    <body>
+        
+         <div id="container"></div>
+
+        <script>
+             var options = {
+                 
+                chart: {
+                    renderTo: 'container',
+                    type: 'bar'
+                },
+                title: {
+                    text: 'My First Graph'
+                },
+                xAxis: {
+                    categories: ['Tech', 'Retail', 'Services', 'Other']
+                },
+                yAxis: {
+                    title: {
+                        text: 'Sales in Thousands'
+                    }
+                },
+                series: [{
+                    name: 'Sales Overall',
+                    data: [100,33,58,77]
+                }],
+                 lang: {
+                    noData: 'No Data'
+                    },
+                noData: {
+                    style: {
+                        fontWeight: 'bold',
+                        fontSize: '15px',
+                        color: '#303030'
+                    }
+                } 
+            };
+    
+    
+            //build chart using options above
+            $(document).ready(function(){
+                
+                var chart = new Highcharts.Chart(options);
+                
+            });
+            
+            
+        </script>
+    
+       
+
+    </body>
+</html>
