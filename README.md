@@ -12,3 +12,15 @@ Practice Examples of HighCharts JS Charting Library - Non Commercial Version
   <dt>HighCharts-Advanced-Charts</dt>
   <dd>Language: JS - HighCharts Library</dd>
   <dd>Description: Choropleth map, Box plot graph and stock charts involving the importing of HighStock and HighMaps modules.</dd></dl>
+ <dl>
+  <dt>HighCharts-Apply-Theme</dt>
+  <dd>Language: JS - HighCharts Library</dd>
+  <dd>Description: Apply an original style theme.</dd></dl>
+ <dl>
+  <dt>HighCharts-CSV</dt>
+  <dd>Language: JS - HighCharts Library</dd>
+  <dd>Description: Generate a chart using CSV data.</dd></dl>
+ <dl>
+  <dt>HighCharts-Json</dt>
+  <dd>Language: JS - HighCharts Library</dd>
+  <dd>Description: Generate a chart using Json data.</dd></dl>
