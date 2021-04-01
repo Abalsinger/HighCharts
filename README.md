@@ -24,3 +24,8 @@ Practice Examples of HighCharts JS Charting Library - Non Commercial Version
   <dt>HighCharts-Json</dt>
   <dd>Language: JS - HighCharts Library</dd>
   <dd>Description: Generate a chart using Json data.</dd></dl>
+  <dl>
+  <dt>HighCharts-CustomMap</dt>
+  <dd>Language: JS - HighCharts Library</dd>
+  <dd>Description: Generate a custom Summit-Medina County zipcode map.
+  <br> JsFiddle: https://jsfiddle.net/abalsing907/zg6e2fvs/</dd></dl>
