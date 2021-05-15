@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {"id": "123.123.123.123", "group": 1},
+    {"id": "Delta.234.123", "group": 1},
+    {"id": "234.234.234.234", "group": 3},
+    {"id": "456.456.456.456", "group": 2},
+    {"id": "Alpha.123.456", "group": 1},
+    {"id": "Beta.123.456", "group": 1},
+    {"id": "Lamda.123.456", "group": 3},
+    {"id": "Delta.123.456", "group": 1},
+    {"id": "567.567.567.567", "group": 4},
+    {"id": "678.678.678.678", "group": 2},
+    {"id": "Gamma.123.456", "group": 2},  
+    {"id": "Theta.123.456", "group": 2}, 
+    {"id": "Kappa.123.456", "group": 3},
+    {"id": "Sigma.123.456", "group": 3}
+  ],
+  "links": [
+    {"source": "Delta.234.123", "target": "123.123.123.123", "value": 1},
+    {"source": "234.234.234.234", "target": "123.123.123.123", "value": 8},
+    {"source": "456.456.456.456", "target": "123.123.123.123", "value": 10},
+    {"source": "456.456.456.456", "target": "234.234.234.234", "value": 6},
+    {"source": "Alpha.123.456", "target": "123.123.123.123", "value": 1},
+    {"source": "Beta.123.456", "target": "123.123.123.123", "value": 1},
+    {"source": "Delta.123.456", "target": "123.123.123.123", "value": 1},
+    {"source": "567.567.567.567", "target": "456.456.456.456", "value": 3},
+    {"source": "567.567.567.567", "target": "234.234.234.234", "value": 3},
+    {"source": "Sigma.123.456", "target": "234.234.234.234", "value": 3},
+    {"source": "Sigma.123.456", "target": "Lamda.123.456", "value": 3},
+    {"source": "Kappa.123.456", "target": "Sigma.123.456", "value": 3},   
+    {"source": "678.678.678.678", "target": "456.456.456.456", "value": 3},
+    {"source": "Gamma.123.456", "target": "456.456.456.456", "value": 3},
+    {"source": "Theta.123.456", "target": "456.456.456.456", "value": 3}     
+  ]
+}
